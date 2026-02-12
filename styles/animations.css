@@ -1,0 +1,112 @@
+@layer base {
+  :root {
+    --grid-color: rgba(255, 255, 255, 0.08);
+    --glass-highlight: rgba(255, 255, 255, 0.18);
+    --glass-background: rgba(7, 9, 18, 0.75);
+  }
+}
+
+@keyframes grid-pan {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-400px);
+  }
+}
+
+@keyframes glow-orbit {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  50% {
+    transform: rotate(180deg) translateX(30px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(0);
+  }
+}
+
+.fx-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0),
+    radial-gradient(circle at 1px 1px, rgba(96, 165, 250, 0.04) 1px, transparent 0);
+  background-size: 90px 90px, 140px 140px;
+  opacity: 0.1;
+  mask-image: radial-gradient(circle at center, black, transparent 80%);
+}
+
+.fx-aurora {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  filter: blur(80px);
+  opacity: 0.45;
+  mix-blend-mode: normal;
+}
+
+.fx-aurora::before,
+.fx-aurora::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(77, 235, 215, 0.25), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(96, 165, 250, 0.2), transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(255, 99, 177, 0.2), transparent 35%);
+  animation: aurora-shift 40s ease-in-out infinite alternate;
+}
+
+.fx-aurora::after {
+  filter: blur(90px);
+  opacity: 0.5;
+  animation-duration: 55s;
+}
+
+@keyframes aurora-shift {
+  0% {
+    transform: translate3d(-4%, -6%, 0) scale(1.02);
+  }
+  50% {
+    transform: translate3d(5%, 4%, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(-3%, 8%, 0) scale(0.98);
+  }
+}
+
+.glass-panel {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(11, 16, 28, 0.7));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 25px 60px rgba(8, 12, 24, 0.45);
+  backdrop-filter: blur(18px);
+}
+
+.neon-border {
+  border-image: linear-gradient(120deg, rgba(77, 235, 215, 0.5), rgba(96, 165, 250, 0.5)) 1;
+}
+
+.tagline-grid {
+  position: relative;
+  isolation: isolate;
+}
+
+.tagline-grid::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(120deg, rgba(77, 235, 215, 0.5), rgba(192, 132, 252, 0.5));
+  -webkit-mask:
+    linear-gradient(#000, #000) content-box,
+    linear-gradient(#000, #000);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: pulseGlow 6s ease-in-out infinite;
+  z-index: -1;
+}

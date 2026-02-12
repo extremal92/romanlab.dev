@@ -1,0 +1,236 @@
+{
+  "seo": {
+    "title": "Roman Romanov — Senior Frontend Engineer",
+    "description": "Senior Frontend Developer specializing in React, Next.js (SSR), SEO, and Core Web Vitals for production fintech and commerce platforms.",
+    "ogTitle": "Roman Romanov | Senior Frontend Developer",
+    "ogDescription": "React & Next.js specialist delivering SEO-ready, production-grade experiences across fintech, e-commerce, and marketplaces."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "ariaLabel": "Roman Romanov hero section",
+    "eyebrow": "Roman Romanov",
+    "title": "Senior Frontend Developer",
+    "description": "I build multilingual fintech and commerce platforms with SSR, SEO, Core Web Vitals discipline, and carefully tuned performance budgets.",
+    "tagline": [
+      "9+ years of React + Next.js delivery for fintech, marketplaces, and SEO-heavy products.",
+      "Core Web Vitals, SSR metadata, and rendering optimizations that improve LCP/CLS/INP.",
+      "Payment integrations (Stripe, MAIB, MIA) and Socket.io real-time UX without regressions.",
+      "Reusable UI systems and Tailwind tooling that keep cross-browser releases predictable."
+    ],
+    "ctaPrimary": "View Projects",
+    "ctaSecondary": "Contact Me",
+    "ctaCv": "Download CV",
+    "metrics": {
+      "title": "Impact in numbers",
+      "years": "Years delivering products",
+      "projects": "Commerce & fintech launches",
+      "systems": "Design systems shipped",
+      "copy": {
+        "experience": "~9 years building multilingual marketplaces, fintech dashboards, and SEO surfaces.",
+        "projects": "E-commerce, trading games, and marketplace flows delivered under tight SLAs.",
+        "systems": "Six multi-brand systems shepherded from concept to governance playbooks."
+      }
+    },
+    "availability": {
+      "label": "Currently open for",
+      "value": "Senior frontend leadership, architecture partnerships, and SEO/performance audits.",
+      "cta": "Schedule a conversation"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Precision-built frontend engineering",
+    "subtitle": "React & Next.js engineering for SEO-driven fintech and e-commerce platforms.",
+    "body": [
+      "I am a Senior Frontend Developer with 9+ years delivering production-grade web applications across e-commerce, marketplaces, and fintech. Each release balances SSR-driven SEO, Core Web Vitals, and frictionless checkout or trading flows.",
+      "My toolkit spans React, Next.js, TypeScript, Tailwind CSS, and performance profiling. I integrate Stripe/MAIB/MIA payments, Socket.io real-time flows, and localization at scale while reducing regressions through reusable UI systems.",
+      "Whether leading large redesigns, shipping trading games, or building SEO landing libraries, I treat frontend as a measurable system: faster rendering, smaller bundles, predictable deployments."
+    ],
+    "highlights": {
+      "title": "Career highlights",
+      "items": [
+        "Page load times improved by ~15–25% via rendering and data-fetch optimizations.",
+        "UI responsiveness increased ~20–30% on complex flows by removing redundant renders.",
+        "SEO stability and indexability delivered through SSR metadata pipelines.",
+        "Payment integrations (Stripe / MAIB / MIA) with ~15–25% reduction in checkout issues.",
+        "UI regressions lowered ~30–40% by codifying reusable responsive patterns."
+      ]
+    },
+    "passion": {
+      "title": "Precision Inspired by Sportbikes",
+      "body": "Sportbikes keep reaction speed and analytical thinking sharp — just like optimizing interface performance and architecture.",
+      "bullets": [
+        "Fast decisions and risk control matter equally on the road and in development.",
+        "I value data, metrics, and measurable results — in products and in code.",
+        "Engineering mindset: balancing speed, stability, and reliability."
+      ]
+    },
+    "avatar": {
+      "label": "Above Standards",
+      "placeholder": "Portrait Roman Romanov",
+      "caption": "Roman Romanov · Senior Frontend Developer\nDesigning future-ready interfaces with React / Next.js / TypeScript.\nOptimization, architecture, and speed — my standard of elevation.",
+      "bullets": [
+        "9+ years of frontend development experience",
+        "Production-scale applications and architecture",
+        "Performance and UX as priorities",
+        "Focus on scalability and code quality"
+      ],
+      "bikeCaption": "The same precision in technology and decisions."
+    },
+    "media": {
+      "portraitAlt": "Roman Romanov headshot",
+      "bikeAlt": "Roman Romanov on a sport bike"
+    }
+  },
+  "skills": {
+    "eyebrow": "Expertise",
+    "title": "Core competencies & technical depth",
+    "subtitle": "React, Next.js (SSR), SEO, Core Web Vitals, and resilient UI architecture.",
+    "categories": {
+      "frontend": {
+        "label": "Frontend",
+        "title": "React + Next.js delivery",
+        "items": [
+          "React + Hooks architecture, reusable UI kits, Tailwind CSS.",
+          "Next.js SSR, routing, metadata, and multilingual readiness.",
+          "TypeScript-first development, shared domain models, linting standards.",
+          "Component documentation, Storybook, and regression-safe handoffs."
+        ]
+      },
+      "architecture": {
+        "label": "Architecture",
+        "title": "Performance & SEO systems",
+        "items": [
+          "Core Web Vitals, rendering budgets, bundle & lazy-loading strategies.",
+          "SSR metadata, semantic HTML, and indexing readiness for SEO.",
+          "State management with React Query, Redux, Recoil depending on flow.",
+          "Observability, profiling, and incident playbooks for frontend quality."
+        ]
+      },
+      "tooling": {
+        "label": "Tooling",
+        "title": "Developer experience",
+        "items": [
+          "CI/CD pipelines (Vercel/AWS), pnpm/webpack optimizations.",
+          "Storybook, Chromatic, and visual regression automation.",
+          "Design tokens, theming, and responsive breakpoints as code.",
+          "Close product/design collaboration with Figma + accessibility reviews."
+        ]
+      },
+      "performance": {
+        "label": "Performance",
+        "title": "Speed & resilience",
+        "items": [
+          "Sub-second TTI goals through streaming, selective hydration, caching.",
+          "Profiling via Chrome Traces, Lighthouse CI, and React DevTools.",
+          "Socket.io/WebSocket real-time experiences tuned for low overhead.",
+          "Accessibility-first interactions and inclusive microcopy."
+        ]
+      },
+      "ux": {
+        "label": "UX",
+        "title": "Human-centered system design",
+        "items": [
+          "Partnering with PM/Design for research-backed flows and experiments.",
+          "Responsive design and cross-browser QA for commerce & fintech.",
+          "Email templates (light/dark) and marketing surfaces with semantic HTML.",
+          "Documentation, mentoring, and ownership in agile, fast-paced teams."
+        ]
+      },
+      "delivery": {
+        "label": "Collaboration",
+        "title": "Collaboration & leadership",
+        "items": [
+          "Agile ceremonies and release planning with product/design partners.",
+          "Transparent communication, documentation, and async coordination.",
+          "Mentoring engineers and stakeholders through change & experimentation.",
+          "Quality gates and cross-team handoffs that keep launches predictable."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Experience",
+    "title": "Impact across fintech, commerce & marketplaces",
+    "subtitle": "Real-world experience delivering measurable impact through SEO discipline, SSR, Core Web Vitals, and product ownership.",
+    "impact": "Highlights",
+    "cta": "Explore GitHub",
+    "actions": {
+      "repo": "View repository",
+      "demo": "Visit site"
+    },
+    "cards": {
+      "apteka": {
+        "label": "APTEKA.MD · Medical marketplace",
+        "title": "Frontend Developer · 2025 – Present",
+        "description": "Building a multilingual pharmacy marketplace with payment integrations (MIA/MAIB), regional search, Yandex Maps, and Core Web Vitals improvements."
+      },
+      "profit": {
+        "label": "PROFIT.COM (ex Darqube) · Fintech",
+        "title": "Frontend Developer · 2021 – 2025",
+        "description": "Delivered SSR marketing pages, trading games UI, Stripe payments, realtime Socket.io updates, and resilient email templates for dark/light clients."
+      },
+      "seolitte": {
+        "label": "SEOLITTE · SEO agency",
+        "title": "Frontend Developer · 2020 – 2021",
+        "description": "React product work plus rapid WordPress fixes, semantic markup, and faster turnaround on SEO-focused sites."
+      },
+      "simpals": {
+        "label": "SIMPALS (price.md) · Marketplace ecosystem",
+        "title": "Web Developer · 2018 – 2020",
+        "description": "Supported Moldovan online stores, built modules, and created an internal site builder to accelerate launches by ~30–50%."
+      },
+      "maxtreme": {
+        "label": "MAXTREME · E-commerce startup",
+        "title": "Co-founder / Project Manager · 2017 – 2018",
+        "description": "Orchestrated full online retail launch, supplier contracts, compliance, and end-to-end development coordination."
+      },
+      "alpen": {
+        "label": "ALPEN TOUCH TECH · Web agency",
+        "title": "Web Developer · 2017",
+        "description": "HTML/CSS + WordPress storefronts, corporate sites, and responsive email templates with light/dark support."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s build something measurable",
+    "subtitle": "Based in Chișinău, open to remote or onsite collaboration across EU time zones.",
+    "connect": "Connect",
+    "availability": "Remote worldwide · CET-friendly · Happy to discuss architecture audits or long-term builds.",
+    "email": {
+      "label": "Email",
+      "title": "Direct line",
+      "description": "webromaromanov@gmail.com"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "title": "Professional signal",
+      "description": "linkedin.com/in/romanov-roman-rro992/"
+    },
+    "github": {
+      "label": "GitHub",
+      "title": "Engineering craft",
+      "description": "github.com/extremal92"
+    },
+    "phone": {
+      "label": "Phone",
+      "title": "+373 69 96 79 96",
+      "description": "Call or reach me on Telegram / WhatsApp."
+    },
+    "resume": {
+      "label": "CV",
+      "title": "Download résumé",
+      "description": "PDF version · updated 2026"
+    }
+  },
+  "footer": {
+    "tagline": "React + Next.js specialist crafting SEO-conscious, high-performance products.",
+    "rights": "All rights reserved."
+  }
+}

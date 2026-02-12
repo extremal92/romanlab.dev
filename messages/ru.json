@@ -1,0 +1,236 @@
+{
+  "seo": {
+    "title": "Roman Romanov — Senior Frontend Developer",
+    "description": "Разработчик уровня Senior с опытом работы с React, Next.js (SSR), SEO и Core Web Vitals в финтехе и маркетплейсах.",
+    "ogTitle": "Roman Romanov | Senior Frontend Developer",
+    "ogDescription": "React & Next.js специалист, создающий SEO-ready и высокопроизводительные продукты."
+  },
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "hero": {
+    "ariaLabel": "Хиро-секция Романа Романова",
+    "eyebrow": "Roman Romanov",
+    "title": "Senior Frontend Developer",
+    "description": "Разрабатываю финтех и e-commerce платформы с использованием SSR, SEO, Core Web Vitals и измеримых продуктовых метрик.",
+    "tagline": [
+      "9+ лет React + Next.js для финтеха, маркетплейсов и SEO-продуктов.",
+      "Core Web Vitals, SSR-метаданные и оптимизация рендеринга под цели LCP/CLS/INP.",
+      "Интеграции Stripe/MAIB/MIA и realtime (Socket.io) без регрессий.",
+      "Переиспользуемые UI-системы и Tailwind tooling для предсказуемых релизов."
+    ],
+    "ctaPrimary": "Проекты",
+    "ctaSecondary": "Связаться",
+    "ctaCv": "Скачать резюме",
+    "metrics": {
+      "title": "В цифрах",
+      "years": "Лет практики",
+      "projects": "Commerce & fintech запуски",
+      "systems": "Design systems",
+      "copy": {
+        "experience": "~9 лет создаю мультиязычные маркетплейсы и финтех-дэшборды.",
+        "projects": "E-commerce, trading games и платформенные решения, выпущенные в срок.",
+        "systems": "6 мультибрендовых систем от концепта до governance."
+      }
+    },
+    "availability": {
+      "label": "Открыт к",
+      "value": "Синьорским ролям, архитектурным партнёрствам и аудитам SEO/перфоманса.",
+      "cta": "Назначить звонок"
+    }
+  },
+  "about": {
+    "eyebrow": "Обо мне",
+    "title": "Точная инженерия фронтенда",
+    "subtitle": "React & Next.js для SEO-страниц, Core Web Vitals и устойчивой архитектуры.",
+    "body": [
+      "Я Senior Frontend Developer с 9+ годами опыта в e-commerce и финтехе. Каждый релиз балансирует требования SSR, SEO и производительности, обеспечивая бесшовный checkout или trading UX.",
+      "Рабочий стек включает React, Next.js, TypeScript, Tailwind CSS и инструменты профилирования. Интегрирую Stripe/MAIB/MIA, Socket.io и локализацию на уровне платформы, уменьшая регрессии благодаря переиспользуемым UI-системам.",
+      "От редизайнов и trading games до библиотек SEO-страниц — отношусь к фронтенду как к системе измеримых метрик: быстрее рендер, компактнее бандлы, стабильные релизы."
+    ],
+    "highlights": {
+      "title": "Ключевые достижения",
+      "items": [
+        "Ускорил загрузку страниц на ~15–25% через оптимизацию рендеринга и загрузки данных.",
+        "Улучшил отзывчивость UI на ~20–30% убрав лишние перерисовки.",
+        "Укрепил SEO благодаря SSR и пайплайну метаданных.",
+        "Интегрировал Stripe / MAIB / MIA, сократив ошибки checkout на ~15–25%.",
+        "Снизил UI-регрессии на ~30–40%, внедрив responsive-паттерны."
+      ]
+    },
+    "passion": {
+      "title": "Точность от спортбайков",
+      "body": "Спортбайки держат реакцию и аналитическое мышление в тонусе — так же, как оптимизация производительности интерфейсов и архитектуры.",
+      "bullets": [
+        "Быстрые решения и контроль рисков — одинаково важны на дороге и в разработке.",
+        "Люблю данные, метрики и измеримый результат — в продуктах и в коде.",
+        "Инженерный подход: баланс скорости, стабильности и надёжности."
+      ]
+    },
+    "avatar": {
+      "label": "Выше стандартов",
+      "placeholder": "Портрет Roman Romanov",
+      "caption": "Roman Romanov · Senior Frontend Developer\nПроектирую интерфейсы будущего на React / Next.js / TypeScript.\nОптимизация, архитектура и скорость — мой стандарт высоты.",
+      "bullets": [
+        "9+ лет опыта в frontend разработке",
+        "Production-scale приложения и архитектура",
+        "Performance и UX как приоритет",
+        "Фокус на масштабируемости и качестве кода"
+      ],
+      "bikeCaption": "Та же точность в технологиях и решениях."
+    },
+    "media": {
+      "portraitAlt": "Портрет Романа Романова",
+      "bikeAlt": "Роман Романов на мотоцикле"
+    }
+  },
+  "skills": {
+    "eyebrow": "Навыки",
+    "title": "Ключевые компетенции",
+    "subtitle": "React, Next.js (SSR), SEO, Core Web Vitals и архитектура UI.",
+    "categories": {
+      "frontend": {
+        "label": "Frontend",
+        "title": "React + Next.js",
+        "items": [
+          "Архитектура на React Hooks, переиспользуемые UI-компоненты, Tailwind CSS.",
+          "Next.js SSR, роутинг, metadata, мультиязычность.",
+          "Разработка с приоритетом TypeScript, общие доменные модели, строгие линтеры.",
+          "Документация, Storybook и безболезненный handoff."
+        ]
+      },
+      "architecture": {
+        "label": "Архитектура",
+        "title": "Перфоманс и SEO",
+        "items": [
+          "Core Web Vitals, streaming, lazy loading, caching.",
+          "SSR-метаданные, семантический HTML, индексируемость.",
+          "State management: React Query, Redux, Recoil.",
+          "Observability, профилирование и регламенты обеспечения качества."
+        ]
+      },
+      "tooling": {
+        "label": "Tooling",
+        "title": "Developer Experience",
+        "items": [
+          "CI/CD (Vercel/AWS), pnpm/webpack оптимизации.",
+          "Storybook, Chromatic, защита от визуальных регрессий.",
+          "Design tokens, theming, breakpoints как код.",
+          "Работа с продуктом/дизайном в Figma, accessibility ревью."
+        ]
+      },
+      "performance": {
+        "label": "Performance",
+        "title": "Скорость и устойчивость",
+        "items": [
+          "TTI <1s через streaming и выборочную гидратацию.",
+          "Профилирование: Chrome Traces, Lighthouse CI, React DevTools.",
+          "Socket.io/WebSocket UX с минимальным overhead.",
+          "Доступные паттерны и инклюзивный microcopy."
+        ]
+      },
+      "ux": {
+        "label": "UX",
+        "title": "Проектирование систем, ориентированных на человека",
+        "items": [
+          "Работа с PM/Design по исследованиям и экспериментам.",
+          "Responsive дизайн и кросс-браузер QA.",
+          "Email-шаблоны (light/dark) и маркетинговые интерфейсы.",
+          "Документация, менторство и ownership в agile."
+        ]
+      },
+      "delivery": {
+        "label": "Коллаборация",
+        "title": "Коллаборация и лидерство",
+        "items": [
+          "Agile-ритуалы, планирование релизов и синхронизация с продуктом/дизайном.",
+          "Прозрачная коммуникация, документация и асинхронная координация.",
+          "Менторинг разработчиков и стейкхолдеров во время изменений.",
+          "Партнерство с QA и четкие handoff'ы для предсказуемых релизов."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Опыт",
+    "title": "Влияние в финтехе, маркетплейсах и SEO",
+    "subtitle": "Реальный опыт достижения измеримого результата через SEO-подход, SSR, оптимизацию Core Web Vitals и ответственность за продукт.",
+    "impact": "Результат",
+    "cta": "GitHub",
+    "actions": {
+      "repo": "Код на GitHub",
+      "demo": "Перейти на сайт"
+    },
+    "cards": {
+      "apteka": {
+        "label": "APTEKA.MD · Медицинский маркетплейс",
+        "title": "Frontend Developer · 2025 – наст.",
+        "description": "Мультиязычный маркетплейс с платежами MIA/MAIB, региональным поиском, Yandex Maps и улучшенными Core Web Vitals."
+      },
+      "profit": {
+        "label": "PROFIT.COM (ex Darqube) · Финтех",
+        "title": "Frontend Developer · 2021 – 2025",
+        "description": "SSR-landing'и, trading battles UI, интеграция Stripe, realtime Socket.io и email-шаблоны light/dark."
+      },
+      "seolitte": {
+        "label": "SEOLITTE · SEO-агентство",
+        "title": "Frontend Developer · 2020 – 2021",
+        "description": "React-продукт + быстрые WordPress-фиксы, семантическая разметка и SEO-улучшения."
+      },
+      "simpals": {
+        "label": "SIMPALS (price.md) · Экосистема маркетплейсов",
+        "title": "Web Developer · 2018 – 2020",
+        "description": "Интернет-магазины, новые модули и внутренний site builder (-30–50% времени запуска)."
+      },
+      "maxtreme": {
+        "label": "MAXTREME · Онлайн-ритейл",
+        "title": "Co-founder / Project Manager · 2017 – 2018",
+        "description": "Полный цикл запуска магазина: поставщики, комплаенс, взаимодействие с dev-командой."
+      },
+      "alpen": {
+        "label": "ALPEN TOUCH TECH · Веб-студия",
+        "title": "Web Developer · 2017",
+        "description": "Лендинги и магазины на WordPress + email-шаблоны с поддержкой light/dark."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Контакты",
+    "title": "Создадим измеримый результат",
+    "subtitle": "Кишинёв · доступен для удалённой или очной работы в европейских часовых поясах.",
+    "connect": "Связаться",
+    "availability": "Удалённо по всему миру · CET friendly · Готов к аудитам и долгим партнёрствам.",
+    "email": {
+      "label": "Email",
+      "title": "Прямая линия",
+      "description": "webromaromanov@gmail.com"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "title": "Профессиональный профиль",
+      "description": "linkedin.com/in/romanov-roman-rro992/"
+    },
+    "github": {
+      "label": "GitHub",
+      "title": "Инженерные проекты",
+      "description": "github.com/extremal92"
+    },
+    "phone": {
+      "label": "Телефон",
+      "title": "+373 69 96 79 96",
+      "description": "Телеграм / WhatsApp доступны."
+    },
+    "resume": {
+      "label": "Резюме",
+      "title": "Скачать PDF",
+      "description": "актуально на 2026"
+    }
+  },
+  "footer": {
+    "tagline": "React + Next.js специалист, создающий SEO-ориентированные и высокопроизводительные продукты.",
+    "rights": "Все права защищены."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "seo": {
+    "title": "Roman Romanov — Senior Frontend Developer",
+    "description": "Dezvoltator Frontend Senior cu experiență în React, Next.js (SSR), SEO și optimizarea Core Web Vitals pentru aplicații fintech și marketplace.",
+    "ogTitle": "Roman Romanov | Senior Frontend Developer",
+    "ogDescription": "Expert React & Next.js care livrează experiențe SEO-ready și optimizate pentru Core Web Vitals."
+  },
+  "nav": {
+    "about": "Despre",
+    "skills": "Competențe",
+    "projects": "Proiecte",
+    "contact": "Contact"
+  },
+  "hero": {
+    "ariaLabel": "Secțiunea erou Roman Romanov",
+    "eyebrow": "Roman Romanov",
+    "title": "Senior Frontend Developer",
+    "description": "Construiesc platforme fintech și e-commerce cu SSR, SEO, Core Web Vitals și focus pe performanță măsurabilă.",
+    "tagline": [
+      "9+ ani cu React + Next.js pentru fintech, marketplace-uri și produse SEO.",
+      "Core Web Vitals, metadata SSR și optimizări de randare pentru LCP/CLS/INP.",
+      "Integrare plăți Stripe/MAIB/MIA și fluxuri Socket.io stabile.",
+      "Sisteme UI reutilizabile și Tailwind tooling pentru lansări previzibile."
+    ],
+    "ctaPrimary": "Vezi proiectele",
+    "ctaSecondary": "Contactează-mă",
+    "ctaCv": "Descarcă CV",
+    "metrics": {
+      "title": "Impact în cifre",
+      "years": "Ani de livrări",
+      "projects": "Lansări commerce & fintech",
+      "systems": "Design systems livrate",
+      "copy": {
+        "experience": "~9 ani construind marketplace-uri multilingve și dashboard-uri fintech.",
+        "projects": "E-commerce, jocuri de trading și marketplace-uri livrate la timp.",
+        "systems": "Șase sisteme multi-brand ghidate din concept până la governance."
+      }
+    },
+    "availability": {
+      "label": "Deschis pentru",
+      "value": "Leadership frontend senior, parteneriate de arhitectură și audituri SEO/performanță.",
+      "cta": "Programează o discuție"
+    }
+  },
+  "about": {
+    "eyebrow": "Despre",
+    "title": "Inginerie frontend construită cu precizie",
+    "subtitle": "React & Next.js pentru produse SEO, rapide și stabile.",
+    "body": [
+      "Sunt Senior Frontend Developer cu 9+ ani experiență în e-commerce, marketplace și fintech. Fiecare livrare combină SSR, SEO și performanță cu o experiență fluentă de checkout sau trading.",
+      "Lucrez cu React, Next.js, TypeScript, Tailwind CSS și instrumente de profiling. Integrez plăți Stripe/MAIB/MIA, fluxuri Socket.io și localizare la scară, reducând regresiile prin sisteme UI reutilizabile.",
+      "De la redesign-uri majore și trading games până la biblioteci de pagini SEO, tratez frontend-ul ca pe un sistem măsurabil: randare mai rapidă, bundle-uri mai mici, lansări previzibile."
+    ],
+    "highlights": {
+      "title": "Repere de carieră",
+      "items": [
+        "Timpul de încărcare redus cu ~15–25% prin optimizări de randare și încărcare a datelor.",
+        "Răspunsul UI îmbunătățit cu ~20–30% prin eliminarea render-elor inutile.",
+        "SEO stabil prin SSR și metadata pipeline dedicat.",
+        "Integrare plăți Stripe/MIA/MAIB cu ~15–25% mai puține probleme de checkout.",
+        "Regresii UI reduse ~30–40% datorită pattern-urilor responsive reutilizabile."
+      ]
+    },
+    "passion": {
+      "title": "Precizia inspirată de sportbike-uri",
+      "body": "Sportbike-urile mențin reacția și gândirea analitică în formă — la fel ca optimizarea performanței interfețelor și a arhitecturii.",
+      "bullets": [
+        "Deciziile rapide și controlul riscurilor sunt la fel de importante pe drum ca și în dezvoltare.",
+        "Îmi plac datele, metricile și rezultatele măsurabile — în produse și în cod.",
+        "Abordare inginerească: echilibru între viteză, stabilitate și fiabilitate."
+      ]
+    },
+    "avatar": {
+      "label": "Peste standarde",
+      "placeholder": "Portret Roman Romanov",
+      "caption": "Roman Romanov · Senior Frontend Developer\nProiectez interfețe ale viitorului cu React / Next.js / TypeScript.\nOptimizarea, arhitectura și viteza — standardul meu de înălțime.",
+      "bullets": [
+        "9+ ani experiență în dezvoltare frontend",
+        "Aplicații la scară de producție și arhitectură",
+        "Performanța și UX ca prioritate",
+        "Focus pe scalabilitate și calitatea codului"
+      ],
+      "bikeCaption": "Aceeași precizie în tehnologie și decizii."
+    },
+    "media": {
+      "portraitAlt": "Portret Roman Romanov",
+      "bikeAlt": "Roman Romanov pe motocicletă"
+    }
+  },
+  "skills": {
+    "eyebrow": "Competențe",
+    "title": "Competențe cheie & profunzime tehnică",
+    "subtitle": "React, Next.js (SSR), SEO, Core Web Vitals și arhitectură UI rezilientă.",
+    "categories": {
+      "frontend": {
+        "label": "Frontend",
+        "title": "Livrare React + Next.js",
+        "items": [
+          "Arhitectură React cu Hooks, sisteme UI reutilizabile, Tailwind CSS.",
+          "Next.js SSR, rutare, metadata și suport multilingv.",
+          "Dezvoltare TypeScript-first, modele partajate, linting strict.",
+          "Documentație de componente, Storybook și handoff fără regresii."
+        ]
+      },
+      "architecture": {
+        "label": "Arhitectură",
+        "title": "Performanță & SEO",
+        "items": [
+          "Core Web Vitals, streaming, lazy loading și caching.",
+          "Metadata SSR, HTML semantic și indexare pregătită pentru SEO.",
+          "State management cu React Query, Redux, Recoil după necesități.",
+          "Observabilitate, profiling și ghiduri operaționale pentru calitate."
+        ]
+      },
+      "tooling": {
+        "label": "Tooling",
+        "title": "Developer experience",
+        "items": [
+          "CI/CD (Vercel/AWS), optimizări pnpm/webpack.",
+          "Storybook, Chromatic și protecție la regresii vizuale.",
+          "Design tokens, theming și breakpoints codificate.",
+          "Colaborare product/design cu Figma și audituri de accesibilitate."
+        ]
+      },
+      "performance": {
+        "label": "Performanță",
+        "title": "Viteză & reziliență",
+        "items": [
+          "TTI sub secundă prin streaming și hidratare selectivă.",
+          "Profilare cu Chrome Traces, Lighthouse CI, React DevTools.",
+          "Fluxuri Socket.io/WebSocket optimizate pentru overhead redus.",
+          "Interacțiuni accesibile și microcopy incluziv."
+        ]
+      },
+      "ux": {
+        "label": "UX",
+        "title": "Proiectare de sisteme centrate pe oameni",
+        "items": [
+          "Parteneriat strâns cu PM/Design pentru fluxuri validate.",
+          "Design responsive și QA cross-browser pentru commerce & fintech.",
+          "Șabloane de email (light/dark) și interfețe marketing construite semantic.",
+          "Documentație, mentorat și ownership în echipe agile."
+        ]
+      },
+      "delivery": {
+        "label": "Colaborare",
+        "title": "Colaborare & leadership",
+        "items": [
+          "Ceremonii agile și planificare de release cu echipele de produs/design.",
+          "Comunicare transparentă, documentație riguroasă și colaborare asincronă.",
+          "Mentorat și ghidaj pentru colegi și stakeholderi în proiecte complexe.",
+          "Procese de QA și handoff-uri cross-team care mențin lansările previzibile."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Experiență",
+    "title": "Impact în fintech, marketplace și SEO",
+    "subtitle": "Experiență reală în livrarea unui impact măsurabil prin disciplină SEO, SSR, Core Web Vitals și asumarea responsabilității asupra produsului.",
+    "impact": "Rezultate",
+    "cta": "Vezi GitHub",
+    "actions": {
+      "repo": "Vezi repository",
+      "demo": "Vizitează site-ul"
+    },
+    "cards": {
+      "apteka": {
+        "label": "APTEKA.MD · Marketplace medical",
+        "title": "Frontend Developer · 2025 – prezent",
+        "description": "Marketplace multilingv cu plăți MIA/MAIB, căutare regională, Yandex Maps și îmbunătățiri Core Web Vitals."
+      },
+      "profit": {
+        "label": "PROFIT.COM (ex Darqube) · Fintech",
+        "title": "Frontend Developer · 2021 – 2025",
+        "description": "Pagini SEO cu SSR, UI pentru trading games, plăți Stripe și realtime Socket.io, șabloane email light/dark."
+      },
+      "seolitte": {
+        "label": "SEOLITTE · Agenție SEO",
+        "title": "Frontend Developer · 2020 – 2021",
+        "description": "Produs React + remedieri WordPress rapide, marcaj semantic și optimizări SEO."
+      },
+      "simpals": {
+        "label": "SIMPALS (price.md) · Ecosistem marketplace",
+        "title": "Web Developer · 2018 – 2020",
+        "description": "Magazine online, module noi și builder intern care a redus timpul de lansare cu ~30–50%."
+      },
+      "maxtreme": {
+        "label": "MAXTREME · Retail online",
+        "title": "Co-fondator / Project Manager · 2017 – 2018",
+        "description": "Coordonare pentru lansarea platformei, contracte cu furnizori, conformitate și operațional."
+      },
+      "alpen": {
+        "label": "ALPEN TOUCH TECH · Agenție",
+        "title": "Web Developer · 2017",
+        "description": "Landing page-uri și magazine WordPress + template-uri email compatibile light/dark."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Hai să construim ceva măsurabil",
+    "subtitle": "Chișinău · disponibil remote sau on-site în fusuri orare europene.",
+    "connect": "Conectează-te",
+    "availability": "Remote global · CET friendly · Deschis pentru audituri și colaborări pe termen lung.",
+    "email": {
+      "label": "Email",
+      "title": "Linie directă",
+      "description": "webromaromanov@gmail.com"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "title": "Profil profesional",
+      "description": "linkedin.com/in/romanov-roman-rro992/"
+    },
+    "github": {
+      "label": "GitHub",
+      "title": "Proiecte tehnice",
+      "description": "github.com/extremal92"
+    },
+    "phone": {
+      "label": "Telefon",
+      "title": "+373 69 96 79 96",
+      "description": "Disponibil și pe Telegram / WhatsApp."
+    },
+    "resume": {
+      "label": "CV",
+      "title": "Descarcă CV",
+      "description": "PDF actualizat · 2026"
+    }
+  },
+  "footer": {
+    "tagline": "Specialist React + Next.js pentru produse optimizate pentru SEO și performanță ridicată.",
+    "rights": "Toate drepturile rezervate."
+  }
+}

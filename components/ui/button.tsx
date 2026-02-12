@@ -6,7 +6,7 @@ type ButtonProps = {
   children: React.ReactNode;
   className?: string;
   variant?: "primary" | "secondary";
-  href?: React.ComponentProps<typeof Link>["href"];
+  href?: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement> &
   Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, "href">;
 
@@ -17,14 +17,17 @@ export function Button({
   href,
   ...rest
 }: ButtonProps) {
-  const variantClass =
-    variant === "primary" ? "btn-primary" : "btn-secondary";
+  const variantClass = variant === "primary" ? "btn-primary" : "btn-secondary";
 
   const finalClassName = cn(variantClass, className);
 
   if (href) {
     return (
-      <Link className={finalClassName} href={href} {...rest}>
+      <Link
+        className={finalClassName}
+        href={href as React.ComponentProps<typeof Link>["href"]}
+        {...rest}
+      >
         {children}
       </Link>
     );
@@ -36,4 +39,3 @@ export function Button({
     </button>
   );
 }
-

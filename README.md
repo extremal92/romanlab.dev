@@ -1,4 +1,4 @@
-# romanlab.dev — Portfolio of Roman Romanov
+# rrdev.site — Portfolio of Roman Romanov
 
 Personal portfolio of **Roman Romanov**, Senior Frontend Engineer.  
 Built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS v4**, and **next-intl** for a multilingual, performance-focused presentation.

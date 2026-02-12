@@ -13,7 +13,7 @@ export const siteConfig = {
   title: "Roman Romanov — Senior Frontend Engineer",
   description:
     "Senior Frontend Engineer crafting futuristic, performant web experiences with React, Next.js, and TypeScript.",
-  url: "https://romanlab-dev.vercel.app",
+  url: "https://www.rrdev.site",
   contactEmail: "webromaromanov@gmail.com",
   contactPhone: "+373 69 96 79 96",
   location: "Moldova, Chișinău",

@@ -111,7 +111,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     nationality: "Romanian",
     worksFor: {
       "@type": "Organization",
-      name: "RomanLab",
+      name: "Roman Romanov",
     },
     sameAs: siteConfig.socials.map((social) => social.href),
   };

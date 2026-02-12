@@ -23,7 +23,7 @@ export function SiteHeader() {
           <div className="relative flex h-10 w-10 overflow-hidden items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-sm font-semibold uppercase tracking-widest text-slate-200">
             <Image
               src="/logo.png"
-              alt="Romanlab"
+              alt="RRDev"
               width={40}
               height={40}
               className="w-full h-full object-contain"
@@ -32,7 +32,7 @@ export function SiteHeader() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
-              Romanlab
+              RRDev
             </p>
             <p className="text-sm font-semibold text-white">
               {siteConfig.name}

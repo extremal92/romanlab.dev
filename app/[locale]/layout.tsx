@@ -6,7 +6,7 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 
 import { locales, type Locale } from "@/i18n/config";
 import { SiteShell } from "@/components/layout/site-shell";
@@ -50,7 +50,7 @@ export async function generateMetadata({
       ...acc,
       [currentLocale]: `/${currentLocale}`,
     }),
-    {} as Record<string, string>
+    {} as Record<string, string>,
   );
 
   return {
@@ -119,7 +119,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <>
       <IntlProvider locale={locale} messages={messages} timeZone={timeZone}>
-        <SiteShell locale={locale}>{children}</SiteShell>
+        <Suspense fallback={null}>
+          <SiteShell locale={locale}>{children}</SiteShell>
+        </Suspense>
       </IntlProvider>
       <script
         type="application/ld+json"
